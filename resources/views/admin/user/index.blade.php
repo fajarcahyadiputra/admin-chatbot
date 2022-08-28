@@ -43,8 +43,8 @@
                                     <td>
                                         <div class="d-flex justify-content-left align-items-center">
                                             <div class="avatar  me-3">
-                                                <img src="{{ Storage::url($user->picture) }}" alt="Avatar"
-                                                    width="64" height="64">
+                                                <img src="{{ Storage::url($user->picture) }}" alt="Avatar" width="64"
+                                                    height="64">
                                             </div>
                                             <div class="d-flex flex-column">
                                                 <span class="text-truncate fw-bold">{{ $user->name }}</span>

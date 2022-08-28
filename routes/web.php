@@ -38,7 +38,7 @@ Route::name('admin.')->group(function () {
 
         //users
         Route::resource('user', UserController::class, ['names' => 'user'])->except(['update']);
-        Route::post('/user/update/{id}', [UserController::class, 'update'])->name('user.update');
+        Route::post('/user/{id}/update', [UserController::class, 'update'])->name('user.updated');
         //end user
 
         //whatsapp reply sub1

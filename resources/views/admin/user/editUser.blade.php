@@ -111,7 +111,7 @@
 
 
             $.ajax({
-                url: `{{ route('admin.user.updated', ['user' => $user->id]) }}`,
+                url: `{{ route('admin.user.updated', ['id' => $user->id]) }}`,
                 data: data,
                 dataType: 'json',
                 processData: false,

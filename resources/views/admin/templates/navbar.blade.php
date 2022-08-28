@@ -289,7 +289,7 @@
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="avatar-container">
                             <div class="avatar avatar-sm avatar-indicators avatar-online">
-                                <img alt="avatar" src="{{ asset('assets/src/assets/img/profile-30.png') }}"
+                                <img alt="avatar" src="{{ Storage::url(auth()->user()->picture) }}"
                                     class="rounded-circle">
                             </div>
                         </div>
