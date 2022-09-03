@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>SignIn Boxed | CORK - Multipurpose Bootstrap Dashboard Template </title>
+    <title>Login Page</title>
     <link rel="icon" type="image/x-icon" href="../src/assets/img/favicon.ico" />
     <link
         href="{{ asset('assets/layouts/vertical-dark-menu/css/light/loader.css" rel="stylesheet" type="text/css') }}" />

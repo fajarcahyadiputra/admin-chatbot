@@ -1,5 +1,5 @@
 @extends('admin.templates.app')
-@section('title', 'EDIT WHATSAPP REPLY')
+@section('title', 'EDIT MENU')
 @section('content')
     <!--  BEGIN CONTENT AREA  -->
 
@@ -12,7 +12,7 @@
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item"><a href="/back">List Whatsapp
                             Replies</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Edit Whatsapp Reply</li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit Menu</li>
                 </ol>
             </nav>
         </div>
@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="col-xxl-12 col-sm-4 col-12 mx-auto">
-                        <button type="submit" class="btn btn-success w-100">Edit Whatsapp Reply</button>
+                        <button type="submit" class="btn btn-success w-100">Edit Menu</button>
                     </div>
                 </div>
             </form>

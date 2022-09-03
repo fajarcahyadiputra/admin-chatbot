@@ -1,5 +1,5 @@
 @extends('admin.templates.app')
-@section('title', 'ADD WHATSAPP REPLY')
+@section('title', 'ADD MENU')
 @section('content')
     <!--  BEGIN CONTENT AREA  -->
 
@@ -81,7 +81,7 @@
                     </div>
 
                     <div class="col-xxl-12 col-sm-4 col-12 mx-auto">
-                        <button type="submit" class="btn btn-success w-100">Create Whatsapp Reply</button>
+                        <button type="submit" class="btn btn-success w-100">Create Menu</button>
                     </div>
                 </div>
             </form>

@@ -1,5 +1,5 @@
 @extends('admin.templates.app')
-@section('title', 'DATA WHATSAPP REPLY SUB1')
+@section('title', 'DATA MENU SUB1')
 @section('css')
     <link rel="stylesheet" type="text/css"
         href="{{ asset('assets/src/plugins/css/light/table/datatable/dt-global_style.css') }}">
