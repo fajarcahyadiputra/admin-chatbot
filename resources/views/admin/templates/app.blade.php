@@ -111,7 +111,11 @@
     <script src="{{ asset('assets/src/plugins/src/apex/apexcharts.min.js') }}"></script>
     <script src="{{ asset('assets/src/assets/js/dashboard/dash_1.js') }}"></script>
     <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+    
     <script src="{{ asset('assets/src/plugins/src/table/datatable/datatables.js') }}"></script>
+    <script src="{{ asset('assets/src/plugins/src/table/datatable/button-ext/buttons.print.min.js') }}"></script>
+    <script src="{{ asset('assets/src/plugins/src/table/datatable/button-ext/dataTables.buttons.min.js') }}"></script>
+    <script src="{{ asset('assets/src/plugins/src/table/datatable/button-ext/buttons.html5.min.js') }}"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         $(document).ready(function() {

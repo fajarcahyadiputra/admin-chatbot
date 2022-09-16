@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\WhatsappReplyController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\ReportController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,7 +26,7 @@ Route::name('admin.')->group(function () {
     //auth
     Route::get('/auth/login', [AuthController::class, 'index'])->name('login');
     Route::post('/auth/login-action', [AuthController::class, 'loginAction'])->name('loginAction');
-    Route::post('/auth/logout-action', [AuthController::class, 'logout'])->name('logout');
+    Route::get('/auth/logout-action', [AuthController::class, 'logout'])->name('logout');
     //end auth
     //endpoint seccure
     Route::middleware(['auth'])->group(function () {
@@ -51,5 +52,10 @@ Route::name('admin.')->group(function () {
         // whatsapp eply sub2
         Route::get('/whatsapp_replies/sub2/{id}', [WhatsappReplyController::class, 'indexSub2'])->name('whatsapp_reply.sub2');
         //end whatsapp reply sub2
+
+       // report
+       Route::get('/report/harian', [ReportController::class, 'harian'])->name('report.harian');
+       Route::get('/report/harian-pdf', [ReportController::class, 'reportharianPdf'])->name('report.harianPdf');
+       //report
     });
 });

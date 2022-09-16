@@ -10,5 +10,5 @@ class MessageReply extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['message', 'type', 'linkMedia', 'number_destination'];
+    protected $fillable = ['keyword','message', 'type', 'question','linkMedia', 'number_destination'];
 }
