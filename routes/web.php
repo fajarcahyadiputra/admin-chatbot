@@ -56,6 +56,7 @@ Route::name('admin.')->group(function () {
        // report
        Route::get('/report/harian', [ReportController::class, 'harian'])->name('report.harian');
        Route::get('/report/harian-pdf', [ReportController::class, 'reportharianPdf'])->name('report.harianPdf');
+       Route::get('/report/detail-harian', [ReportController::class, 'reportharianDetail'])->name('report.harianDetail');
        //report
     });
 });
